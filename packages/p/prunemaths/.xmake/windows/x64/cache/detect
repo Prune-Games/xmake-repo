@@ -1,0 +1,22 @@
+{
+    ["detect.sdks.find_mingw"] = {
+        mingw = {
+            cross = "x86_64-w64-mingw32-",
+            bindir = [[C:\MinGW\bin]],
+            sdkdir = "C:/MinGW"
+        }
+    },
+    ["detect.sdks.find_vcpkgdir"] = false,
+    find_program = {
+        unzip = "unzip",
+        gzip = "gzip",
+        tar = "tar",
+        git = "git"
+    },
+    find_package_mingw_x86_64_fetch_package_xmake = {
+        ["xmake::prunemaths_8fa19855adca4135b86be5ce2211ccde_release_1.0"] = false
+    },
+    find_package_mingw_x86_64_fetch_package_system = {
+        prunemaths_8fa19855adca4135b86be5ce2211ccde_release = false
+    }
+}
