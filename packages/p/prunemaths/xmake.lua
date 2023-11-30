@@ -5,6 +5,7 @@ package("prunemaths")
 
     add_urls("https://github.com/Prune-Games/PruneMaths.git")
 
+    add_versions("1.2", "a10ce1d40d15af54756d011ad791721d869e4c0b")
     add_versions("1.1", "3512a28a6b07380645747aecceda4a3d3fc0b49b")
     add_versions("1.0", "b0f9e7b35076eb0b01cfeeebb3d5c788abaedcf3")
 
